@@ -156,7 +156,10 @@ body {
   transition: border-color .2s, transform .04s;
 }
 .item:hover { border-color: #2a375c; }
-.item__text {
+.item__text { 
+  font-size: 16px; 
+  color: white;             
+  flex: 1;   
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
